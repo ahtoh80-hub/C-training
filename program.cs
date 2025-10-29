@@ -19,4 +19,4 @@ Person result = repository.GetPersonById(2);
 Console.WriteLine($"{result.Name}");
 
 Console.WriteLine("Все прошло удачно");
-
+//Console.ReadKey();
