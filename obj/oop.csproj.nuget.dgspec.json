@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RAN-Notebook\\Desktop\\PJT\\C-training\\oop.csproj": {}
+    "C:\\Users\\Aresh\\Desktop\\PJT\\oop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RAN-Notebook\\Desktop\\PJT\\C-training\\oop.csproj": {
+    "C:\\Users\\Aresh\\Desktop\\PJT\\oop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAN-Notebook\\Desktop\\PJT\\C-training\\oop.csproj",
+        "projectUniqueName": "C:\\Users\\Aresh\\Desktop\\PJT\\oop.csproj",
         "projectName": "oop",
-        "projectPath": "C:\\Users\\RAN-Notebook\\Desktop\\PJT\\C-training\\oop.csproj",
-        "packagesPath": "C:\\Users\\RAN-Notebook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAN-Notebook\\Desktop\\PJT\\C-training\\obj\\",
+        "projectPath": "C:\\Users\\Aresh\\Desktop\\PJT\\oop.csproj",
+        "packagesPath": "C:\\Users\\Aresh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aresh\\Desktop\\PJT\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\RAN-Notebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Aresh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
