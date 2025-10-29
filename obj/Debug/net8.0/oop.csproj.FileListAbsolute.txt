@@ -1,0 +1,15 @@
+C:\Users\Aresh\Desktop\PJT\bin\Debug\net8.0\oop.exe
+C:\Users\Aresh\Desktop\PJT\bin\Debug\net8.0\oop.deps.json
+C:\Users\Aresh\Desktop\PJT\bin\Debug\net8.0\oop.runtimeconfig.json
+C:\Users\Aresh\Desktop\PJT\bin\Debug\net8.0\oop.dll
+C:\Users\Aresh\Desktop\PJT\bin\Debug\net8.0\oop.pdb
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.AssemblyInfoInputs.cache
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.AssemblyInfo.cs
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.csproj.CoreCompileInputs.cache
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.sourcelink.json
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.dll
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\refint\oop.dll
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.pdb
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\oop.genruntimeconfig.cache
+C:\Users\Aresh\Desktop\PJT\obj\Debug\net8.0\ref\oop.dll
