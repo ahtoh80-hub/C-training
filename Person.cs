@@ -3,16 +3,19 @@ class Person
     // private string name;
     // private int age;
     //конструктор заполнения класса Person() - всегда совпадает по имени с классом (инициализация)
-    public Person(string n, int a)
+    public Person(string name, int age)
     {
-        Name = n;
-        Age = a;
+        this.Name = name;
+        this.Age = age;
     }
-    public string Name { get; set; }
-    public int Age { get; set; }
+    public string Name { get; protected set; } //protected для доступа к унаследованным классам (вместо private)
+    public int Age { get; protected set; }
 
-
-
+    //Метод формирования стринговой переменной для печати:
+    public virtual string StringToPrint() //Виртуальный метод может быть переопределен в классах наследниках!!!!
+    {
+        return $"Имя:{this.Name}; Возраст:{this.Age};";
+    }
 
     // public string Name // Метод ввода/вывода информации класса во вне (Name) Обращение к имени
     // {

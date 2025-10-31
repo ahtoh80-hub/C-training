@@ -5,8 +5,8 @@ class Printer // Печать всего репозитория
         int max = repository.Index;
         for (int i = 0; i < max; i++)
         {
-            Person TempPerson = repository.GetPersonById(i);
-            Console.WriteLine($"Номер записи:{i}, Имя:{TempPerson.Name}, Возраст:{TempPerson.Age};");
+            Person TempPerson = repository.GetPersonById(i); //промежуточная переменная типа Person для печати
+            Console.WriteLine($"Номер записи:{i},{TempPerson.StringToPrint()}");
         }
     }
 }
