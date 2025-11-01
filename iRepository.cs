@@ -1,0 +1,3 @@
+interface iRepository : iRepo<Person>
+{
+}

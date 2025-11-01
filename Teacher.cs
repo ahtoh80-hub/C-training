@@ -11,4 +11,9 @@ class Teacher : Person
     {
         return base.StringToPrint() + $" Предмет: {this.Subject};";
     }
+    //тренировка по возвращению параметров через класс Person
+    public override string Return() //Виртуальный метод может быть переопределен в классах наследниках!!!!
+    {
+        return this.Subject;
+    }
 }

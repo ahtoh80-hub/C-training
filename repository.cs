@@ -1,5 +1,5 @@
 //База данных (репозиторий)
-class Repository
+class Repository : iRepository
 {
     private Person[] storage; // типа данных массив из класса Person (размер массива определяем в конструкторе класса Repository)
     private int count; //максимально количество записей в репозитории (количество записей определяем в конструкторе класса Repository)
@@ -35,11 +35,11 @@ class Repository
         }
     }
 
-    public Person GetPersonById(int id) //Метод получения данных типа Person из репозитория по номеру id
+    public Person GetById(int id) //Метод получения данных типа Person из репозитория по номеру id
     {
         if (id < 0 || id >= this.index)
         {
-            return new Person("Empty", -1);
+            return new NullPerson();
         }
         return storage[id];
     }
