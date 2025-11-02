@@ -40,7 +40,7 @@ NewRepo newRepo = new NewRepo();
 newRepo.Append(person1, person2, person3);
 newRepo.Append(student, employee, teacher);
 //Печать репозитория с помощью класса
-for (int i = 0; i < 1000; i++)
+for (int i = 0; i < 10; i++)
 {
     newRepo.Append(new Employee($"Working {i}", Random.Shared.Next(20, 70), Random.Shared.Next(50000, 250000)));
 }
@@ -61,6 +61,11 @@ Console.WriteLine(user.Id);
 Console.WriteLine(user.Id2);
 
 
+Circle circle1 = new Circle(5);
+var square1 = circle1.GetSquare();
+
+Console.WriteLine($"Площадь равна: {square1}");
+Console.WriteLine($"Площадь равна: {circle1.Square}");
 
 Console.WriteLine("Все прошло удачно");
 //Console.ReadKey();
