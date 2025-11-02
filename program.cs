@@ -61,11 +61,11 @@ Console.WriteLine(user.Id);
 Console.WriteLine(user.Id2);
 
 
-Circle circle1 = new Circle(5);
-var square1 = circle1.GetSquare();
+//Circle circle1 = new Circle(5);
+//var square1 = circle1.GetSquare();
 
-Console.WriteLine($"Площадь равна: {square1}");
-Console.WriteLine($"Площадь равна: {circle1.Square}");
+//Console.WriteLine($"Площадь равна: {square1}");
+//Console.WriteLine($"Площадь равна: {circle1.Square}");
 
 Console.WriteLine("Все прошло удачно");
 //Console.ReadKey();

@@ -1,7 +1,6 @@
 class Circle : Figure
 {
     public Circle(double radius) //Конструктор класса Student (ctor при наборе)// инициализация через класс person:
-   // : base(typeFigure,Square)
     {
         this.Radius = radius;
   
