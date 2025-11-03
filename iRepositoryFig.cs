@@ -1,3 +1,0 @@
-interface iRepositoryFig : iRepoFig<Figure>
-{
-}
