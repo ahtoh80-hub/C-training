@@ -11,7 +11,7 @@ abstract class Figure
     //Абстрактный метод расчет площади фигуры:
        public virtual double GetSquare() //Виртуальный метод может быть переопределен в классах наследниках!!!!
     {
-       return this.Square;
+       return 0;
     }
     //Метод формирования string переменной для печати площади фигуры:
     public virtual string PrintSquare() //Виртуальный метод может быть переопределен в классах наследниках!!!!

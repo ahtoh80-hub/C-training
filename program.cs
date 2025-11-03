@@ -60,12 +60,27 @@ user.Id2 = "1";
 Console.WriteLine(user.Id);
 Console.WriteLine(user.Id2);
 
+//Тестовое задание
+Figure Figure1 = new Circle(2);
+Figure Figure2 = new Circle(5);
+Figure Figure3 = new Circle(6);
+Figure Figure4 = new Triangle(1,1,10);
 
-//Circle circle1 = new Circle(5);
-//var square1 = circle1.GetSquare();
 
-//Console.WriteLine($"Площадь равна: {square1}");
 //Console.WriteLine($"Площадь равна: {circle1.Square}");
+RepositoryFig newRepoFig = new RepositoryFig();
+newRepoFig.Append(Figure1,Figure2,Figure3,Figure4);
+
+
+
+// Генерация фигур:
+for (int i = 0; i < 1000; i++)
+{
+newRepoFig.Append(new Triangle(Random.Shared.Next(1, 70),Random.Shared.Next(1, 100),Random.Shared.Next(1, 100)));
+}
+
+PrinterFig printer = new PrinterFig(); //определение класса 
+printer.Print(newRepoFig);
 
 Console.WriteLine("Все прошло удачно");
 //Console.ReadKey();
